@@ -1,5 +1,13 @@
 .App {
   text-align: center;
+  padding: 20px;
+}
+
+.App__container {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 20px;
+  padding: 20px 0;
 }
 
 .App-logo {

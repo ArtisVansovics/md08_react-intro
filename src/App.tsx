@@ -1,11 +1,16 @@
 import React from 'react';
 import './App.scss';
-import Heading from './components/heading/heading';
+import Header from './components/header/header';
+import Button from './components/button/button';
 
 const App = () => (
   <div className="App">
-    <Heading text="Hello 1" />
-    <Heading text="Hello 2" />
+    <Header />
+    <div className="App__container">
+      <Button />
+      <Button />
+      <Button />
+    </div>
   </div>
 );
 
