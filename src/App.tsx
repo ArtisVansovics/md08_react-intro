@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.scss';
 import Header from './components/header/header';
-import Button from './components/button/button';
+import { Button, ButtonRed } from './components/button/button';
 
 const App = () => (
   <div className="App">
@@ -10,6 +10,11 @@ const App = () => (
       <Button />
       <Button />
       <Button />
+    </div>
+    <div className="App__container">
+      <ButtonRed text="Button 1" />
+      <ButtonRed text="Button 2" />
+      <ButtonRed text="Button 3" />
     </div>
   </div>
 );
