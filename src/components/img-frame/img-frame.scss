@@ -1,0 +1,12 @@
+.ImgFrame {
+  display: flex;
+  border-radius: 50%;
+  border: 2px solid darkblue;
+  padding: 40px;
+}
+
+.ImgFrame__image {
+  display: block;
+  width: 100%;
+  max-width: 150px;
+}
