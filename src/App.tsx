@@ -3,6 +3,10 @@ import './App.scss';
 import Header from './components/header/header';
 import { Button, ButtonRed } from './components/button/button';
 import ImgFrame from './components/img-frame/img-frame';
+import cat01 from './assets/images/cat01.jpg';
+import cat02 from './assets/images/cat02.png';
+import cat03 from './assets/images/cat03.jpg';
+import cat04 from './assets/images/cat04.jpg';
 
 const App = () => (
   <div className="App">
@@ -18,18 +22,10 @@ const App = () => (
       <ButtonRed text="Button 3" />
     </div>
     <div className="App__container">
-      <ImgFrame
-        src="https://png.pngtree.com/element_our/png/20181009/thai-cat-cream-tabby-sitting-png_131622.jpg"
-      />
-      <ImgFrame
-        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6RTvGVK-qPzm36I20BcCtPl-XARIzGfblxA&usqp=CAU"
-      />
-      <ImgFrame
-        src="https://www.pngfind.com/pngs/m/311-3116406_cat-png-free-download-cute-cat-png-transparent.png"
-      />
-      <ImgFrame
-        src="https://i.pinimg.com/564x/10/d9/63/10d9631abb9778072c1da264a6d4709a--cats.jpg"
-      />
+      <ImgFrame srcPath={cat01} altName="cat01" />
+      <ImgFrame srcPath={cat02} altName="cat02" />
+      <ImgFrame srcPath={cat03} altName="cat03" />
+      <ImgFrame srcPath={cat04} altName="cat04" />
     </div>
   </div>
 );

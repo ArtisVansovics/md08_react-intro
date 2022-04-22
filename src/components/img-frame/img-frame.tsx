@@ -1,12 +1,13 @@
 import './img-frame.scss';
 
 type ImgFrameProps = {
-  src: string
+  srcPath: string,
+  altName: string,
 }
 
-const ImgFrame = ({ src }: ImgFrameProps) => (
+const ImgFrame = ({ srcPath, altName }: ImgFrameProps) => (
   <div className="ImgFrame">
-    <img src={src} alt="" className="ImgFrame__image" />
+    <img src={srcPath} alt={altName} className="ImgFrame__image" />
   </div>
 );
 
