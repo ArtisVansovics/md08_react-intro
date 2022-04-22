@@ -1,0 +1,32 @@
+.Card {
+  display: flex;
+  flex-flow: column wrap;
+  gap: 10px;
+  align-items: flex-start;
+  background-color: #ece0c8;
+  padding: 20px;
+  border-radius: 20px;
+  border: darkblue 2px solid;
+  min-width: 200px;
+}
+
+.Card__title {
+  font-weight: 600;
+  font-size: 20px;
+  margin: 0;
+}
+
+.Card__text {
+  font-size: 18px;
+  margin: 0;
+}
+
+.Card__btn{
+  align-self: flex-end;
+  background-color: mediumaquamarine;
+  border-radius: 10px;
+  border: darkblue 2px solid;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}

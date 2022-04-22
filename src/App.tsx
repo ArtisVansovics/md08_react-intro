@@ -3,6 +3,7 @@ import './App.scss';
 import Header from './components/header/header';
 import { Button, ButtonRed } from './components/button/button';
 import ImgFrame from './components/img-frame/img-frame';
+import { Card, CardInfo } from './components/card/card';
 import cat01 from './assets/images/cat01.jpg';
 import cat02 from './assets/images/cat02.png';
 import cat03 from './assets/images/cat03.jpg';
@@ -26,6 +27,16 @@ const App = () => (
       <ImgFrame srcPath={cat02} altName="cat02" />
       <ImgFrame srcPath={cat03} altName="cat03" />
       <ImgFrame srcPath={cat04} altName="cat04" />
+    </div>
+    <div className="App__container">
+      <Card />
+      <Card />
+      <Card />
+    </div>
+    <div className="App__container">
+      <CardInfo title="Title 1" text="Description 1..." />
+      <CardInfo title="Title 2" text="Description 2..." />
+      <CardInfo title="Title 3" text="Description 3..." />
     </div>
   </div>
 );
